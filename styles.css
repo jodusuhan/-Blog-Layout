@@ -1,0 +1,58 @@
+/* Font & Base Styles */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+/* Cards */
+.card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+/* Sidebar */
+.sidebar .list-group-item {
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+}
+
+.sidebar .list-group-item:hover {
+  background-color: #e9ecef;
+}
+
+/* Footer */
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px 0;
+}
+
+footer a {
+  color: #adb5bd;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #fff;
+}
